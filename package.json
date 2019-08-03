@@ -1,0 +1,26 @@
+{
+  "name": "@shikimori/extension",
+  "version": "1.0.0",
+  "description": "The extension provides access to videos",
+  "scripts": {
+    "watch": "./node_modules/.bin/webpack --watch",
+    "build": "./node_modules/.bin/webpack"
+  },
+  "dependencies": {
+    "bulma": "0.7.5",
+    "preact": "8.5.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.86",
+    "@types/node": "12.6.9",
+    "copy-webpack-plugin": "5.0.4",
+    "css-loader": "3.1.0",
+    "mini-css-extract-plugin": "0.8.0",
+    "node-sass": "4.12.0",
+    "sass-loader": "7.1.0",
+    "ts-loader": "6.0.4",
+    "typescript": "3.5.3",
+    "webpack": "4.39.1",
+    "webpack-cli": "3.3.6"
+  }
+}

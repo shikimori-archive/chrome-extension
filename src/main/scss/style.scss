@@ -1,0 +1,57 @@
+.bulma {
+  $primary: #176093;
+  $info: #daf1ff;
+
+  @import "~bulma/sass/utilities/_all.sass";
+  @import "~bulma/sass/base/_all.sass";
+  @import "../../../node_modules/bulma/sass/form/shared";
+  @import "../../../node_modules/bulma/sass/form/select";
+  @import "../../../node_modules/bulma/sass/form/tools";
+  @import "../../../node_modules/bulma/sass/elements/button";
+  @import "../../../node_modules/bulma/sass/components/modal";
+  @import "../../../node_modules/bulma/sass/grid/columns";
+
+  iframe {
+    min-height: 480px;
+    margin-bottom: 1rem;
+  }
+
+  .select {
+    width: 100%;
+
+    select {
+      width: 100%;
+    }
+  }
+
+  .button {
+    border-left-width: 5px;
+
+    &.is-info {
+      border-left: 5px solid #bce6ff;
+      color: $primary;
+    }
+  }
+
+  .play-icon:before, .play-icon:after {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 20px;
+    font-variant: normal;
+    text-transform: none
+  }
+
+  .play-icon:before {
+    font-family: shikimori;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    text-transform: none;
+    letter-spacing: normal;
+    content: "";
+    text-align: center;
+    width: 20px
+  }
+}
