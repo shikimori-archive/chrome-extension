@@ -1,7 +1,7 @@
 {
   "name": "@shikimori/extension",
   "version": "1.0.0",
-  "description": "The extension provides access to videos",
+  "description": "The extension provides access to archive videos",
   "scripts": {
     "watch": "./node_modules/.bin/webpack --watch",
     "build": "./node_modules/.bin/webpack"
